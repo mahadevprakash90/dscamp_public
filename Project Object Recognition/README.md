@@ -1,18 +1,39 @@
 # Project: Object Recognition by Neural Network models
 
-## Learning Step
-1.Go over the "Team project for NN.pptx" (45 mins)
+## How to train your Neural Network:
 
-2.Go over the example in "ImageRecog NN Model template for instructors.ipynb" (20 mins)
+0. The training data is collected by student using data_prep.ipynb
+1. Read about weight initialization in "pt1_Weight_Initialization.ipynb".
+2. Read about neural network optimizers in "pt2_Optimizers.ipynb".
+3. Example at "pt3_Neural_Network_Example_CIFAR-10.ipynb"
+4. Example at "pt4_optimizer_example.ipynb"
 
-3.Share the code template (ImageRecog NN Model template for students.ipynb) and the presentation template (NN team project presentation template for students.pptx) (20 mins)
+## Templates
+1. Jupyter Notebook Template: 2022_project_template.ipynb
 
+2. Presentation Template: NN team project presentation template for students.pptx
 
 ## Introduction of Project
+
+2022 Camps:
+
+Team Task:  build a Neural Network (NN) model to recognize paper, rock and Scissors in images. 
+
+
+2021 Camps:
+
 Team Task:  build a Neural Network (NN) model to recognize objects in images
 
 
 ## Training Data
+
+2022 Camp:
+
+The training data is collected by student using data_prep.ipynb. Examples are given in rps.zip.
+
+The testing data is provided in rps_test.zip under this folder.
+
+2021 Camp:
 
 The CIFAR-10 dataset consists of 60000 32x32x3 color images in 10 equal classes, (6000 images per class). Each class of images corresponds to a physical object (automobile, cat, dog, airplane, etc). Dataset website: https://www.cs.toronto.edu/~kriz/cifar.html
 
@@ -23,4 +44,6 @@ Bacis structure of the NN model is provided (ImageRecog NN Model template for st
 
 ## Assessment of performance
 
-The accuracy on testing data set
+The accuracy on the provided testing data set
+
+
